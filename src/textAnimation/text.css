@@ -1,0 +1,31 @@
+.cursor {
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    background-color: brown;
+    margin-bottom: -3px;
+    margin-left: -3px;
+    animation: cursor 1s infinite alternate;
+
+} 
+@keyframes cursor {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    26% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    76% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+    
+}
